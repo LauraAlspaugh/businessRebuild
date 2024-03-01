@@ -1,12 +1,10 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo"
-        class="rounded-circle">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Vue 3 Starter
-      </h1>
-    </div>
+  <div class="container-fluid">
+    <section class="row">
+      <div class="col-12 equipment-site">
+
+      </div>
+    </section>
   </div>
 </template>
 
@@ -14,30 +12,17 @@
 export default {
   setup() {
     return {
-      
+
     }
   }
 }
 </script>
 
 <style scoped lang="scss">
-.home {
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
-
-  .home-card {
-    width: clamp(500px, 50vw, 100%);
-
-    >img {
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
-  }
+.equipment-site {
+  background-image: url("https://plus.unsplash.com/premium_photo-1661962956543-82fb286018e6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9yZXN0cnklMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
